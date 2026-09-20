@@ -1,0 +1,59 @@
+VisionTrace/
+│
+├── main.py
+├── requirements.txt
+├── README.md
+├── .env
+├── .gitignore
+│
+├── config/
+│   └── config.py
+│
+├── data/
+│   ├── input/
+│   │   ├── reference/
+│   │   │   └── target.jpg
+│   │   └── videos/
+│   │       ├── video1.mp4
+│   │       └── video2.mp4
+│   │
+│   ├── frames/
+│   ├── detections/
+│   ├── crops/
+│   ├── embeddings/
+│   └── results/
+│
+├── stages/
+│   │
+│   ├── __init__.py
+│   │
+│   ├── stage1_video_sampling.py
+│   ├── stage2_object_detection.py
+│   ├── stage3_visual_embedding.py
+│   ├── stage4_similarity_search.py
+│   ├── stage5_temporal_grouping.py
+│   └── stage6_ai_verification.py
+│
+├── models/
+│   ├── __init__.py
+│   └── downloaded/
+│
+├── utils/
+│   ├── __init__.py
+│   ├── video_utils.py
+│   ├── image_utils.py
+│   ├── similarity_utils.py
+│   └── logger.py
+│
+├── tests/
+│   ├── test_stage1.py
+│   ├── test_stage2.py
+│   ├── test_stage3.py
+│   ├── test_stage4.py
+│   ├── test_stage5.py
+│   └── test_stage6.py
+│
+└── outputs/
+    ├── annotated/
+    ├── matches/
+    └── reports/

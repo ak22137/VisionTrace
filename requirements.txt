@@ -1,0 +1,29 @@
+# Core
+numpy
+pandas
+Pillow
+opencv-python
+tqdm
+
+# Computer Vision
+ultralytics
+torch
+torchvision
+
+# Embeddings
+transformers
+accelerate
+sentencepiece
+
+# Vector / similarity
+scikit-learn
+faiss-cpu
+
+# API / configuration
+python-dotenv
+
+# Gemini
+google-genai
+
+# Testing
+pytest
